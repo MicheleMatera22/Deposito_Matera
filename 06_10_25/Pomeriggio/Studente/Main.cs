@@ -16,15 +16,20 @@ namespace Studente
             List<Studente> storico = new List<Studente>();
             storico.Add(s1);
             storico.Add(s2);
+            int s;
             do
             {
                 Console.WriteLine("Di quale studente vuoi informazioni?");
                 string? scelta = Console.ReadLine();
-                int s = Convert.ToInt32(scelta);
-                storico[s - 1].stampaStudente();
-                if(s > storico.Count)
+                s = Convert.ToInt32(scelta);
+                
+                if (s > storico.Count)
                 {
                     Console.WriteLine("Errore, studente non trovato");
+                }
+                else
+                {
+                    storico[s - 1].stampaStudente();
                 }
             }
             while (s > storico.Count);
