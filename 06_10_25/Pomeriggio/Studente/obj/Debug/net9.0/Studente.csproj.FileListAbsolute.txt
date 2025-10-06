@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\obj\Debug\net9.0\Studente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\obj\Debug\net9.0\Studente.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\obj\Debug\net9.0\Studente.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\obj\Debug\net9.0\Studente.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\bin\Debug\net9.0\Studente.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\bin\Debug\net9.0\Studente.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\bin\Debug\net9.0\Studente.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\bin\Debug\net9.0\Studente.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\bin\Debug\net9.0\Studente.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\obj\Debug\net9.0\Studente.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\obj\Debug\net9.0\refint\Studente.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\obj\Debug\net9.0\Studente.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\obj\Debug\net9.0\Studente.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Studente\obj\Debug\net9.0\ref\Studente.dll
