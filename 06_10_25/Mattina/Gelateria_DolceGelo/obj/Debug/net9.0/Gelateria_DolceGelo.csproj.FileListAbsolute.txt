@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\obj\Debug\net9.0\Gelateria_DolceGelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\obj\Debug\net9.0\Gelateria_DolceGelo.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\obj\Debug\net9.0\Gelateria_DolceGelo.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\obj\Debug\net9.0\Gelateria_DolceGelo.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\bin\Debug\net9.0\Gelateria_DolceGelo.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\bin\Debug\net9.0\Gelateria_DolceGelo.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\bin\Debug\net9.0\Gelateria_DolceGelo.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\bin\Debug\net9.0\Gelateria_DolceGelo.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\bin\Debug\net9.0\Gelateria_DolceGelo.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\obj\Debug\net9.0\Gelateria_DolceGelo.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\obj\Debug\net9.0\refint\Gelateria_DolceGelo.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\obj\Debug\net9.0\Gelateria_DolceGelo.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\obj\Debug\net9.0\Gelateria_DolceGelo.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Gelateria_DolceGelo\obj\Debug\net9.0\ref\Gelateria_DolceGelo.dll
