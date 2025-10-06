@@ -16,11 +16,19 @@ namespace Studente
             List<Studente> storico = new List<Studente>();
             storico.Add(s1);
             storico.Add(s2);
-
-            Console.WriteLine("Di quale studente vuoi informazioni?");
-            string? scelta = Console.ReadLine();
-            int s = Convert.ToInt32(scelta);
-            storico[s - 1].stampaStudente();
+            do
+            {
+                Console.WriteLine("Di quale studente vuoi informazioni?");
+                string? scelta = Console.ReadLine();
+                int s = Convert.ToInt32(scelta);
+                storico[s - 1].stampaStudente();
+                if(s > storico.Count)
+                {
+                    Console.WriteLine("Errore, studente non trovato");
+                }
+            }
+            while (s > storico.Count);
+            
 
             Operazioni o1 = new Operazioni();
             int a;
@@ -35,6 +43,7 @@ namespace Studente
 
             o1.StampaRisultato("somma", o1.Somma(a, b));
             o1.StampaRisultato("moltiplicazione", o1.Moltiplica(a, b));
+            
         }
     }
 }
