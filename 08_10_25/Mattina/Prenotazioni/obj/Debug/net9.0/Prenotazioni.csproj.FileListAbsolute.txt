@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\obj\Debug\net9.0\Prenotazioni.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\obj\Debug\net9.0\Prenotazioni.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\obj\Debug\net9.0\Prenotazioni.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\obj\Debug\net9.0\Prenotazioni.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\bin\Debug\net9.0\Prenotazioni.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\bin\Debug\net9.0\Prenotazioni.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\bin\Debug\net9.0\Prenotazioni.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\bin\Debug\net9.0\Prenotazioni.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\bin\Debug\net9.0\Prenotazioni.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\obj\Debug\net9.0\Prenotazioni.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\obj\Debug\net9.0\refint\Prenotazioni.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\obj\Debug\net9.0\Prenotazioni.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\obj\Debug\net9.0\Prenotazioni.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Prenotazioni\obj\Debug\net9.0\ref\Prenotazioni.dll
