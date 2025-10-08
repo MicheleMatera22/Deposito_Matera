@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\obj\Debug\net9.0\Officina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\obj\Debug\net9.0\Officina.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\obj\Debug\net9.0\Officina.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\obj\Debug\net9.0\Officina.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\bin\Debug\net9.0\Officina.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\bin\Debug\net9.0\Officina.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\bin\Debug\net9.0\Officina.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\bin\Debug\net9.0\Officina.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\bin\Debug\net9.0\Officina.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\obj\Debug\net9.0\Officina.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\obj\Debug\net9.0\refint\Officina.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\obj\Debug\net9.0\Officina.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\obj\Debug\net9.0\Officina.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Officina\obj\Debug\net9.0\ref\Officina.dll
