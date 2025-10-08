@@ -1,7 +1,7 @@
 namespace Esercito
 {
     // Classe base 'Soldato' — rappresenta un generico soldato dell’esercito
-    class Soldato
+    public class Soldato
     {
 
         // Nome del soldato (può essere nullo)
