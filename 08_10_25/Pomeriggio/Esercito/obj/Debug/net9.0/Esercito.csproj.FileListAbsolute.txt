@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\bin\Debug\net9.0\Esercito.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\bin\Debug\net9.0\Esercito.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\bin\Debug\net9.0\Esercito.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\bin\Debug\net9.0\Esercito.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\bin\Debug\net9.0\Esercito.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\obj\Debug\net9.0\Esercito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\obj\Debug\net9.0\Esercito.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\obj\Debug\net9.0\Esercito.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\obj\Debug\net9.0\Esercito.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\obj\Debug\net9.0\Esercito.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\obj\Debug\net9.0\refint\Esercito.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\obj\Debug\net9.0\Esercito.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\obj\Debug\net9.0\Esercito.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Esercito\obj\Debug\net9.0\ref\Esercito.dll
