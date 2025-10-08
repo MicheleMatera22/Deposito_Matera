@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\bin\Debug\net9.0\Garage.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\bin\Debug\net9.0\Garage.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\bin\Debug\net9.0\Garage.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\bin\Debug\net9.0\Garage.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\bin\Debug\net9.0\Garage.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\obj\Debug\net9.0\Garage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\obj\Debug\net9.0\Garage.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\obj\Debug\net9.0\Garage.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\obj\Debug\net9.0\Garage.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\obj\Debug\net9.0\Garage.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\obj\Debug\net9.0\refint\Garage.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\obj\Debug\net9.0\Garage.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\obj\Debug\net9.0\Garage.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Garage\obj\Debug\net9.0\ref\Garage.dll
