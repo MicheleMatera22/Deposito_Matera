@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\bin\Debug\net9.0\Aereo.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\bin\Debug\net9.0\Aereo.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\bin\Debug\net9.0\Aereo.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\bin\Debug\net9.0\Aereo.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\bin\Debug\net9.0\Aereo.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\obj\Debug\net9.0\Aereo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\obj\Debug\net9.0\Aereo.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\obj\Debug\net9.0\Aereo.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\obj\Debug\net9.0\Aereo.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\obj\Debug\net9.0\Aereo.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\obj\Debug\net9.0\refint\Aereo.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\obj\Debug\net9.0\Aereo.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\obj\Debug\net9.0\Aereo.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Aereo\obj\Debug\net9.0\ref\Aereo.dll
