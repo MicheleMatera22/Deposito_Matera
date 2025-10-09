@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\bin\Debug\net9.0\Operatori.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\bin\Debug\net9.0\Operatori.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\bin\Debug\net9.0\Operatori.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\bin\Debug\net9.0\Operatori.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\bin\Debug\net9.0\Operatori.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\obj\Debug\net9.0\Operatori.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\obj\Debug\net9.0\Operatori.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\obj\Debug\net9.0\Operatori.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\obj\Debug\net9.0\Operatori.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\obj\Debug\net9.0\Operatori.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\obj\Debug\net9.0\refint\Operatori.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\obj\Debug\net9.0\Operatori.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\obj\Debug\net9.0\Operatori.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Operatori\obj\Debug\net9.0\ref\Operatori.dll
