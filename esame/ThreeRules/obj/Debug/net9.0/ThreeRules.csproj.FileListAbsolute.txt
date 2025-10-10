@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\bin\Debug\net9.0\ThreeRules.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\bin\Debug\net9.0\ThreeRules.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\bin\Debug\net9.0\ThreeRules.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\bin\Debug\net9.0\ThreeRules.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\bin\Debug\net9.0\ThreeRules.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\obj\Debug\net9.0\ThreeRules.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\obj\Debug\net9.0\ThreeRules.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\obj\Debug\net9.0\ThreeRules.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\obj\Debug\net9.0\ThreeRules.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\obj\Debug\net9.0\ThreeRules.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\obj\Debug\net9.0\refint\ThreeRules.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\obj\Debug\net9.0\ThreeRules.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\obj\Debug\net9.0\ThreeRules.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\ThreeRules\obj\Debug\net9.0\ref\ThreeRules.dll
