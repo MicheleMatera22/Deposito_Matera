@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\bin\Debug\net9.0\Astrazione.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\bin\Debug\net9.0\Astrazione.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\bin\Debug\net9.0\Astrazione.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\bin\Debug\net9.0\Astrazione.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\bin\Debug\net9.0\Astrazione.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\obj\Debug\net9.0\Astrazione.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\obj\Debug\net9.0\Astrazione.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\obj\Debug\net9.0\Astrazione.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\obj\Debug\net9.0\Astrazione.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\obj\Debug\net9.0\Astrazione.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\obj\Debug\net9.0\refint\Astrazione.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\obj\Debug\net9.0\Astrazione.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\obj\Debug\net9.0\Astrazione.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Astrazione\obj\Debug\net9.0\ref\Astrazione.dll
