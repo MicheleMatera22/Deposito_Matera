@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\bin\Debug\net9.0\Pagamenti.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\bin\Debug\net9.0\Pagamenti.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\bin\Debug\net9.0\Pagamenti.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\bin\Debug\net9.0\Pagamenti.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\bin\Debug\net9.0\Pagamenti.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\obj\Debug\net9.0\Pagamenti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\obj\Debug\net9.0\Pagamenti.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\obj\Debug\net9.0\Pagamenti.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\obj\Debug\net9.0\Pagamenti.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\obj\Debug\net9.0\Pagamenti.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\obj\Debug\net9.0\refint\Pagamenti.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\obj\Debug\net9.0\Pagamenti.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\obj\Debug\net9.0\Pagamenti.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Pagamenti\obj\Debug\net9.0\ref\Pagamenti.dll
