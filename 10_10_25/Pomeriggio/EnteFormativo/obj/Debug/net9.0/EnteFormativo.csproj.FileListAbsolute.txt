@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\bin\Debug\net9.0\EnteFormativo.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\bin\Debug\net9.0\EnteFormativo.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\bin\Debug\net9.0\EnteFormativo.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\bin\Debug\net9.0\EnteFormativo.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\bin\Debug\net9.0\EnteFormativo.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\obj\Debug\net9.0\EnteFormativo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\obj\Debug\net9.0\EnteFormativo.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\obj\Debug\net9.0\EnteFormativo.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\obj\Debug\net9.0\EnteFormativo.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\obj\Debug\net9.0\EnteFormativo.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\obj\Debug\net9.0\refint\EnteFormativo.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\obj\Debug\net9.0\EnteFormativo.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\obj\Debug\net9.0\EnteFormativo.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\EnteFormativo\obj\Debug\net9.0\ref\EnteFormativo.dll
