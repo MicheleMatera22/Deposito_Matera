@@ -4,7 +4,6 @@ class Program
 {
     public static void Main()
     {
-        /*
         Logger logger1 = Logger.GetIstanza();
         logger1.ScriviMessaggio("Avvio del programma.");
 
@@ -18,9 +17,10 @@ class Program
         else
         {
             Console.WriteLine("Le istanze sono diverse (errore nel pattern Singleton).");
-        }*/
-        Utente utente1 = new Utente("Alice");
-        Utente utente2 = new Utente("Bob");
+        }
+
+        Utente utente1 = new Utente("Giorgio");
+        Utente utente2 = new Utente("Michele");
         utente1.EseguiAzione("Login");
         utente2.EseguiAzione("Visualizza Documento");
     }
