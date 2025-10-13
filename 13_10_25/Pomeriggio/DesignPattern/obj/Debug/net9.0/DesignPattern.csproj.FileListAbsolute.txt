@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\obj\Debug\net9.0\DesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\obj\Debug\net9.0\DesignPattern.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\obj\Debug\net9.0\DesignPattern.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\obj\Debug\net9.0\DesignPattern.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\bin\Debug\net9.0\DesignPattern.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\bin\Debug\net9.0\DesignPattern.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\bin\Debug\net9.0\DesignPattern.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\bin\Debug\net9.0\DesignPattern.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\bin\Debug\net9.0\DesignPattern.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\obj\Debug\net9.0\DesignPattern.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\obj\Debug\net9.0\refint\DesignPattern.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\obj\Debug\net9.0\DesignPattern.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\obj\Debug\net9.0\DesignPattern.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\DesignPattern\obj\Debug\net9.0\ref\DesignPattern.dll
