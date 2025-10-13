@@ -1,0 +1,14 @@
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\bin\Debug\net9.0\Logger.exe
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\bin\Debug\net9.0\Logger.deps.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\bin\Debug\net9.0\Logger.runtimeconfig.json
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\bin\Debug\net9.0\Logger.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\bin\Debug\net9.0\Logger.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\obj\Debug\net9.0\Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\obj\Debug\net9.0\Logger.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\obj\Debug\net9.0\Logger.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\obj\Debug\net9.0\Logger.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\obj\Debug\net9.0\Logger.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\obj\Debug\net9.0\refint\Logger.dll
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\obj\Debug\net9.0\Logger.pdb
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\obj\Debug\net9.0\Logger.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Desktop\corsoc#\Logger\obj\Debug\net9.0\ref\Logger.dll
