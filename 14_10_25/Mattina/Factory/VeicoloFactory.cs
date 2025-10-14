@@ -2,7 +2,7 @@ namespace Factory;
 
 public abstract class Creator
 {
-    public static IVeicolo CreaVeicolo(string tipo);
+    public abstract IVeicolo CreaVeicolo(string tipo);
 }
 
 public class ConcreteCreatorAuto : Creator

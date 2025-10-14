@@ -28,6 +28,29 @@ namespace Factory
             IVeicolo veicolo = creator.CreaVeicolo(tipo);
             veicolo.Avvia();
             veicolo.MostraTipo();
+
+            Console.WriteLine("\nQuale nave vuoi creare? (NaveDaCrociera/catamarano/peschereccio)");
+            string tipoNave = Console.ReadLine().ToLower();
+            CreatorNave creatorNave = null;
+
+            switch (tipoNave)
+            {
+                case "navedacrociera":
+                    creatorNave = new ConcreteCreatorNaveDaCrociera();
+                    break;
+                case "catamarano":
+                    creatorNave = new ConcreteCreatorCatamarano();
+                    break;
+                case "peschereccio":
+                    creatorNave = new ConcreteCreatorPeschereccio();
+                    break;
+                default:
+                    Console.WriteLine("Tipo di nave non valido!");
+                    return;
+            }
+            INavi nave = creatorNave.CreaNave(tipoNave);
+            nave.Naviga();
+            nave.MostraTipo();
         }
     }
 }
