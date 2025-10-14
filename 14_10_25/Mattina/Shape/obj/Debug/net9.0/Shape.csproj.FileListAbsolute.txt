@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\bin\Debug\net9.0\Shape.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\bin\Debug\net9.0\Shape.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\bin\Debug\net9.0\Shape.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\bin\Debug\net9.0\Shape.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\bin\Debug\net9.0\Shape.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\Shape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\Shape.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\Shape.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\Shape.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\Shape.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\Shape.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\refint\Shape.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\Shape.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\Shape.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\Shape\obj\Debug\net9.0\ref\Shape.dll
