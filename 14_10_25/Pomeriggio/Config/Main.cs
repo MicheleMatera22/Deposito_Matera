@@ -6,7 +6,7 @@ namespace Config
         {
             Configurazione moduloA = Configurazione.GetInstance();
             Configurazione moduloB = Configurazione.GetInstance();
-
+            Registro registro = Registro.GetInstance();
             bool continua = true;
 
             while (continua)
@@ -17,6 +17,7 @@ namespace Config
                 Console.WriteLine("3. Stampa tutte le configurazioni");
                 Console.WriteLine("4. Esci");
                 Console.WriteLine("5. Creazione dispositivi");
+                Console.WriteLine("6. Stampa registro dispositivi");
                 Console.Write("Scegli un'opzione: ");
                 string scelta = Console.ReadLine();
 
@@ -66,9 +67,15 @@ namespace Config
                     case "5":
                         Console.Write("Inserisci il tipo di dispositivo (computer/stampante): ");
                         string tipo = Console.ReadLine();
-                        IDispositivo dispositivo1 = DispositivoFactory.CreaDispositivo(tipo);
-                        dispositivo1.Avvia();
-                        dispositivo1.MostraTipo();
+                        IDispositivo dispositivo = DispositivoFactory.CreaDispositivo(tipo);
+                        registro.Aggiungi(dispositivo);
+                        Console.WriteLine("Dispositivo creato e registrato.");
+                        dispositivo.Avvia();
+                        dispositivo.MostraTipo();
+                        break;
+                    case "6":
+                        Console.WriteLine("Dispositivi registrati:");
+                        registro.Stampa();
                         break;
                     default:
                         Console.WriteLine("Opzione non valida. Riprova.");
