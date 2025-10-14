@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Astrazione")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e75473834b4258ed63dbb25033edbaa4399defdb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4704400f9fdd55149dba0ca6cd5078ffae6bca7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Astrazione")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Astrazione")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
