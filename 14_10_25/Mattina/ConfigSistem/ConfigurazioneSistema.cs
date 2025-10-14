@@ -8,10 +8,8 @@ namespace Singleton
         private static ConfigurazioneSistema instance = null;
         private static Dictionary<string, string> info = new Dictionary<string, string>();
 
-        // Costruttore privato per impedire la creazione diretta
         private ConfigurazioneSistema() { }
 
-        // Metodo Singleton corretto
         public static ConfigurazioneSistema GetInstance()
         {
             if (instance == null)
