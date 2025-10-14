@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\Veicoli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\Veicoli.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\Veicoli.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\Veicoli.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\Veicoli.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\bin\Debug\net9.0\Veicoli.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\bin\Debug\net9.0\Veicoli.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\bin\Debug\net9.0\Veicoli.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\bin\Debug\net9.0\Veicoli.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\bin\Debug\net9.0\Veicoli.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\Veicoli.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\refint\Veicoli.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\Veicoli.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\Veicoli.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\Veicoli\obj\Debug\net9.0\ref\Veicoli.dll

@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\Config.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\Config.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\Config.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\Config.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\Config.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\bin\Debug\net9.0\Config.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\bin\Debug\net9.0\Config.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\bin\Debug\net9.0\Config.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\bin\Debug\net9.0\Config.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\bin\Debug\net9.0\Config.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\Config.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\refint\Config.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\Config.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\Config.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Pomeriggio\config\obj\Debug\net9.0\ref\Config.dll
