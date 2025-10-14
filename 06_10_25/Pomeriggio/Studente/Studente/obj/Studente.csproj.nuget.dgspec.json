@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Studente\\Studente.csproj": {}
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Pomeriggio\\Studente\\Studente\\Studente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Studente\\Studente.csproj": {
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Pomeriggio\\Studente\\Studente\\Studente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Studente\\Studente.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Pomeriggio\\Studente\\Studente\\Studente.csproj",
         "projectName": "Studente",
-        "projectPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Studente\\Studente.csproj",
+        "projectPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Pomeriggio\\Studente\\Studente\\Studente.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Studente\\obj\\",
+        "outputPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Pomeriggio\\Studente\\Studente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Operatori\\Operatori.csproj": {}
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\09_10_25\\Mattina\\Operatori\\Operatori.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Operatori\\Operatori.csproj": {
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\09_10_25\\Mattina\\Operatori\\Operatori.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Operatori\\Operatori.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\09_10_25\\Mattina\\Operatori\\Operatori.csproj",
         "projectName": "Operatori",
-        "projectPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Operatori\\Operatori.csproj",
+        "projectPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\09_10_25\\Mattina\\Operatori\\Operatori.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Operatori\\obj\\",
+        "outputPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\09_10_25\\Mattina\\Operatori\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config"

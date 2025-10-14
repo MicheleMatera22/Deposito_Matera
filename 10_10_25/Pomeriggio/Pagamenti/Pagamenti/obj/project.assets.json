@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Pagamenti\\Pagamenti.csproj",
+      "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\10_10_25\\Pomeriggio\\Pagamenti\\Pagamenti\\Pagamenti.csproj",
       "projectName": "Pagamenti",
-      "projectPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Pagamenti\\Pagamenti.csproj",
+      "projectPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\10_10_25\\Pomeriggio\\Pagamenti\\Pagamenti\\Pagamenti.csproj",
       "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Pagamenti\\obj\\",
+      "outputPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\10_10_25\\Pomeriggio\\Pagamenti\\Pagamenti\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config"

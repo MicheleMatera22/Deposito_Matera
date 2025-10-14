@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Officina\\Officina.csproj": {}
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Pomeriggio\\Officina\\Officina.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Officina\\Officina.csproj": {
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Pomeriggio\\Officina\\Officina.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Officina\\Officina.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Pomeriggio\\Officina\\Officina.csproj",
         "projectName": "Officina",
-        "projectPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Officina\\Officina.csproj",
+        "projectPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Pomeriggio\\Officina\\Officina.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Officina\\obj\\",
+        "outputPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Pomeriggio\\Officina\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config"

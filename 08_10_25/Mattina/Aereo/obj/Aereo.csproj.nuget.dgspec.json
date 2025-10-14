@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Aereo\\Aereo.csproj": {}
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Mattina\\Aereo\\Aereo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Aereo\\Aereo.csproj": {
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Mattina\\Aereo\\Aereo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Aereo\\Aereo.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Mattina\\Aereo\\Aereo.csproj",
         "projectName": "Aereo",
-        "projectPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Aereo\\Aereo.csproj",
+        "projectPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Mattina\\Aereo\\Aereo.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Aereo\\obj\\",
+        "outputPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Mattina\\Aereo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config"

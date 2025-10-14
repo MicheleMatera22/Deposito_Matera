@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Gelateria_DolceGelo\\Gelateria_DolceGelo.csproj": {}
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Mattina\\Gelateria_DolceGelo\\Gelateria_DolceGelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Gelateria_DolceGelo\\Gelateria_DolceGelo.csproj": {
+    "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Mattina\\Gelateria_DolceGelo\\Gelateria_DolceGelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Gelateria_DolceGelo\\Gelateria_DolceGelo.csproj",
+        "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Mattina\\Gelateria_DolceGelo\\Gelateria_DolceGelo.csproj",
         "projectName": "Gelateria_DolceGelo",
-        "projectPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Gelateria_DolceGelo\\Gelateria_DolceGelo.csproj",
+        "projectPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Mattina\\Gelateria_DolceGelo\\Gelateria_DolceGelo.csproj",
         "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Gelateria_DolceGelo\\obj\\",
+        "outputPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\06_10_25\\Mattina\\Gelateria_DolceGelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config"

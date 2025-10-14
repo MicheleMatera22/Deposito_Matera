@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\ConfigSistem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\ConfigSistem.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\ConfigSistem.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\ConfigSistem.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\ConfigSistem.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\bin\Debug\net9.0\ConfigSistem.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\bin\Debug\net9.0\ConfigSistem.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\bin\Debug\net9.0\ConfigSistem.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\bin\Debug\net9.0\ConfigSistem.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\bin\Debug\net9.0\ConfigSistem.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\ConfigSistem.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\refint\ConfigSistem.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\ConfigSistem.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\ConfigSistem.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\14_10_25\Mattina\ConfigSistem\obj\Debug\net9.0\ref\ConfigSistem.dll

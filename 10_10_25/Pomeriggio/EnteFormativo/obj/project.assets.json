@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\EnteFormativo\\EnteFormativo.csproj",
+      "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\10_10_25\\Pomeriggio\\EnteFormativo\\EnteFormativo.csproj",
       "projectName": "EnteFormativo",
-      "projectPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\EnteFormativo\\EnteFormativo.csproj",
+      "projectPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\10_10_25\\Pomeriggio\\EnteFormativo\\EnteFormativo.csproj",
       "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\EnteFormativo\\obj\\",
+      "outputPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\10_10_25\\Pomeriggio\\EnteFormativo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config"

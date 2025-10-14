@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\ThreeRules\\ThreeRules.csproj",
+      "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\10_10_25\\Mattina\\esame\\ThreeRules\\ThreeRules.csproj",
       "projectName": "ThreeRules",
-      "projectPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\ThreeRules\\ThreeRules.csproj",
+      "projectPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\10_10_25\\Mattina\\esame\\ThreeRules\\ThreeRules.csproj",
       "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\ThreeRules\\obj\\",
+      "outputPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\10_10_25\\Mattina\\esame\\ThreeRules\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config"

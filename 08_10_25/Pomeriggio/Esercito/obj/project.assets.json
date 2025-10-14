@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Esercito\\Esercito.csproj",
+      "projectUniqueName": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Pomeriggio\\Esercito\\Esercito.csproj",
       "projectName": "Esercito",
-      "projectPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Esercito\\Esercito.csproj",
+      "projectPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Pomeriggio\\Esercito\\Esercito.csproj",
       "packagesPath": "C:\\Users\\miche\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miche\\OneDrive\\Desktop\\corsoc#\\Esercito\\obj\\",
+      "outputPath": "C:\\Users\\miche\\OneDrive\\Documenti\\GitHub\\Deposito_Matera\\08_10_25\\Pomeriggio\\Esercito\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\miche\\AppData\\Roaming\\NuGet\\NuGet.Config"
