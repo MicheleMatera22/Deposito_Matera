@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\NewsAgency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\NewsAgency.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\NewsAgency.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\NewsAgency.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\NewsAgency.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\bin\Debug\net9.0\NewsAgency.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\bin\Debug\net9.0\NewsAgency.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\bin\Debug\net9.0\NewsAgency.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\bin\Debug\net9.0\NewsAgency.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\bin\Debug\net9.0\NewsAgency.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\NewsAgency.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\refint\NewsAgency.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\NewsAgency.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\NewsAgency.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Mattina\NewsAgency\obj\Debug\net9.0\ref\NewsAgency.dll
