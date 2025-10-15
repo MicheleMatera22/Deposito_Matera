@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\bin\Debug\net9.0\Decorator.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\bin\Debug\net9.0\Decorator.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\bin\Debug\net9.0\Decorator.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\bin\Debug\net9.0\Decorator.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\bin\Debug\net9.0\Decorator.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\Decorator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\Decorator.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\Decorator.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\Decorator.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\Decorator.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\Decorator.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\refint\Decorator.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\Decorator.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\Decorator.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Decorator\obj\Debug\net9.0\ref\Decorator.dll
