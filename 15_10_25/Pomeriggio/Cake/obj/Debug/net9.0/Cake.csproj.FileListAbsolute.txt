@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\bin\Debug\net9.0\Cake.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\bin\Debug\net9.0\Cake.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\bin\Debug\net9.0\Cake.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\bin\Debug\net9.0\Cake.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\bin\Debug\net9.0\Cake.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\Cake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\Cake.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\Cake.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\Cake.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\Cake.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\Cake.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\refint\Cake.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\Cake.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\Cake.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\15_10_25\Pomeriggio\Cake\obj\Debug\net9.0\ref\Cake.dll
