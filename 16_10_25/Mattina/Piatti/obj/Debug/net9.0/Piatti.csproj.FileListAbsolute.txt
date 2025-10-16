@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\bin\Debug\net9.0\Piatti.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\bin\Debug\net9.0\Piatti.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\bin\Debug\net9.0\Piatti.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\bin\Debug\net9.0\Piatti.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\bin\Debug\net9.0\Piatti.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\Piatti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\Piatti.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\Piatti.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\Piatti.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\Piatti.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\Piatti.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\refint\Piatti.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\Piatti.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\Piatti.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\16_10_25\Mattina\Piatti\obj\Debug\net9.0\ref\Piatti.dll
