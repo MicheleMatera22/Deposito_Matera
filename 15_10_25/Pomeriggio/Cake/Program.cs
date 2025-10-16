@@ -56,7 +56,7 @@ public class ConPanna : TortaDecorator
 
     public override string Descrizione()
     {
-        return base.Descrizione() + " con Panna";
+        return base.Descrizione() + ", Panna";
     }
 }
 
@@ -66,7 +66,7 @@ public class ConFragole : TortaDecorator
 
     public override string Descrizione()
     {
-        return base.Descrizione() + " con Fragole";
+        return base.Descrizione() + ", Fragole";
     }
 }
 
@@ -76,7 +76,7 @@ public class ConGlassa : TortaDecorator
 
     public override string Descrizione()
     {
-        return base.Descrizione() + " con Glassa";
+        return base.Descrizione() + ", Glassa";
     }
 }
 
@@ -120,6 +120,23 @@ public sealed class NegozioTorte
     {
         torte.Add(torta);
     }
+
+    public void MostraTorte()
+    {
+        if (torte.Count == 0)
+        {
+            Console.WriteLine("Nessuna torta disponibile.");
+        }
+        else
+        {
+            Console.WriteLine("Torte disponibili:");
+            foreach (var torta in torte)
+            {
+                Console.WriteLine(torta.Descrizione());
+            } 
+        }
+
+    }
 }
 #endregion
 
@@ -128,34 +145,86 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("🍰 Benvenuto nel Negozio di Torte!");
-        Console.WriteLine("Scegli la torta base:");
-        Console.WriteLine("1. Cioccolato");
-        Console.WriteLine("2. Vaniglia");
-        Console.WriteLine("3. Frutta");
-        Console.Write("Scelta: ");
-        ITorta tortaBase;
-        switch (Console.ReadLine())
+        var negozio = NegozioTorte.GetIstance();
+        bool continua = true;
+
+        while (continua)
         {
-            case "1":
+            Console.Clear();
+            Console.WriteLine("=== NEGOZIO DI TORTE ===");
+            Console.WriteLine("1. Crea nuove torte");
+            Console.WriteLine("2. Mostra torte nel negozio");
+            Console.WriteLine("0. Esci");
+            Console.Write("Scelta: ");
+
+            string scelta = Console.ReadLine() ?? "";
+
+            switch (scelta)
+            {
+                case "1":
+                    bool creaAltre = true;
+                    while (creaAltre)
+                    {
+                        CreaTorta(negozio);
+                        Console.Write("\nVuoi creare un'altra torta? (s/n): ");
+                        string risposta = Console.ReadLine() ?? "";
+                        if (risposta.ToLower() != "s")
+                            creaAltre = false;
+                    }
+                    break;
+
+                case "2":
+                    negozio.MostraTorte();
+                    Console.WriteLine("\nPremi un tasto per continuare...");
+                    Console.ReadKey();
+                    break;
+
+                case "0":
+                    continua = false;
+                    Console.WriteLine("Uscita in corso...");
+                    break;
+
+                default:
+                    Console.WriteLine("Scelta non valida!");
+                    Console.WriteLine("Premi un tasto per continuare...");
+                    Console.ReadKey();
+                    break;
+            }
+        }
+    }
+
+    static void CreaTorta(NegozioTorte negozio)
+    {
+        Console.Clear();
+        Console.WriteLine("Scegli la torta base:");
+        Console.WriteLine("Cioccolato");
+        Console.WriteLine("Vaniglia");
+        Console.WriteLine("Frutta");
+        Console.Write("Scelta: ");
+
+        string sceltaBase = Console.ReadLine() ?? "";
+        ITorta tortaBase;
+
+        switch (sceltaBase.ToLower())
+        {
+            case "cioccolato":
                 tortaBase = TortaFactory.CreaTorta("cioccolato");
                 break;
-            case "2":
+            case "vaniglia":
                 tortaBase = TortaFactory.CreaTorta("vaniglia");
                 break;
-            case "3":
+            case "frutta":
                 tortaBase = TortaFactory.CreaTorta("frutta");
                 break;
             default:
-                Console.WriteLine("Scelta non valida, si predefinisce Cioccolato.");
+                Console.WriteLine("Scelta non valida! Impostato torta al cioccolato come default.");
                 tortaBase = TortaFactory.CreaTorta("cioccolato");
                 break;
         }
-        
+
         ITorta tortaFinale = tortaBase;
 
         bool aggiungiAltro = true;
-
         while (aggiungiAltro)
         {
             Console.WriteLine("\nVuoi aggiungere un ingrediente extra?");
@@ -164,8 +233,8 @@ class Program
             Console.WriteLine("3. Glassa");
             Console.WriteLine("0. Nessun altro ingrediente");
             Console.Write("Scelta: ");
-            string sceltaExtra = Console.ReadLine() ?? "";
 
+            string sceltaExtra = Console.ReadLine() ?? "";
             switch (sceltaExtra)
             {
                 case "1":
@@ -181,21 +250,16 @@ class Program
                     aggiungiAltro = false;
                     continue;
                 default:
-                    Console.WriteLine("Scelta non valida, riprova.");
+                    Console.WriteLine("Scelta non valida!");
                     continue;
             }
 
             Console.WriteLine("Ingrediente aggiunto!");
         }
 
-        var negozio = NegozioTorte.GetIstance();
         negozio.AggiungiTorta(tortaFinale);
-
-        Console.WriteLine("\nTorta completata!");
-        Console.WriteLine($"Descrizione: {tortaFinale.Descrizione()}");
-
-        Console.WriteLine("\nPremi un tasto per uscire...");
-        Console.ReadKey();
+        Console.WriteLine($"\nTorta completata: {tortaFinale.Descrizione()}");
+        Console.WriteLine("Torta aggiunta al negozio!");
     }
 }
 #endregion
