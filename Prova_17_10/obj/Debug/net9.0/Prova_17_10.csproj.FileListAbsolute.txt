@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\bin\Debug\net9.0\Prova_17_10.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\bin\Debug\net9.0\Prova_17_10.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\bin\Debug\net9.0\Prova_17_10.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\bin\Debug\net9.0\Prova_17_10.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\bin\Debug\net9.0\Prova_17_10.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\Prova_17_10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\Prova_17_10.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\Prova_17_10.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\Prova_17_10.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\Prova_17_10.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\Prova_17_10.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\refint\Prova_17_10.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\Prova_17_10.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\Prova_17_10.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\Prova_17_10\obj\Debug\net9.0\ref\Prova_17_10.dll
