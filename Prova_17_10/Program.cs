@@ -1,14 +1,22 @@
-﻿using System;
+﻿// Programma di esempio che implementa vari design pattern per la gestione di ordini di prodotti.
+// Utilizza Singleton per il contesto dell'app, Factory Method per creare prodotti,
+// Decorator per aggiungere funzionalità ai prodotti, Strategy per calcolare i prezzi,
+// e Observer per notificare cambiamenti nell'ordine.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
 
     #region Singleton
+    // Classe Singleton per gestire il contesto globale dell'applicazione.
+    // Fornisce impostazioni condivise come simbolo valuta, aliquota IVA, e logging.
     public sealed class AppContext
     {
         private static AppContext? istanza;
 
+        // Proprietà per ottenere l'istanza unica (lazy initialization thread-safe).
         public static AppContext GetInstance
         {
             get
@@ -23,10 +31,15 @@ using System.Threading;
                 return istanza;
             }
         }
+        // Simbolo della valuta utilizzata nell'app.
         public string CurrencySymbol { get; set; } = "€";
+        // Aliquota IVA applicata ai prezzi.
         public decimal VatRate { get; set; } = 0.40m;
+        // Evento per notificare cambiamenti negli ordini (non utilizzato nel codice attuale).
         public Action<Order> OnOrderChanged { get; set; }
+        // Costruttore privato per impedire istanziazioni esterne.
         private AppContext(){}
+        // Metodo per loggare messaggi con timestamp.
         public void Log(string message)
         {
             Console.WriteLine($"[LOG] {DateTime.Now:G}: {message}");

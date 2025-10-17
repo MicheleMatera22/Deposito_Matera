@@ -1,0 +1,15 @@
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\bin\Debug\net9.0\Dizionari.exe
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\bin\Debug\net9.0\Dizionari.deps.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\bin\Debug\net9.0\Dizionari.runtimeconfig.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\bin\Debug\net9.0\Dizionari.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\bin\Debug\net9.0\Dizionari.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\Dizionari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\Dizionari.AssemblyInfoInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\Dizionari.AssemblyInfo.cs
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\Dizionari.csproj.CoreCompileInputs.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\Dizionari.sourcelink.json
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\Dizionari.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\refint\Dizionari.dll
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\Dizionari.pdb
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\Dizionari.genruntimeconfig.cache
+C:\Users\miche\OneDrive\Documenti\GitHub\Deposito_Matera\17_10_25\Pomeriggio\Dizionari\obj\Debug\net9.0\ref\Dizionari.dll

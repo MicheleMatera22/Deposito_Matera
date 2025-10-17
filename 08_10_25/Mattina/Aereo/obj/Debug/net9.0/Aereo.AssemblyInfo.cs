@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aereo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc342635296be28ee638258626fcb9fc12b038e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48766f0fae8951dd98bb9710f2c6fd5888f3610d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aereo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aereo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
