@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace BankingApp
 {
@@ -18,22 +19,22 @@ namespace BankingApp
             }
         }
 
-        public Dictionary<int, Cliente> Clienti { get; private set; }
         public Dictionary<int, Conto> Conti { get; private set; }
         public Dictionary<int, List<Operazione>> Operazioni { get; private set; }
+        
+        public Dictionary<int, Utente> Utenti { get; private set; }
+        private int _nextUtenteId = 1;
 
         private readonly List<IObserver> _observers = new List<IObserver>();
-
         private readonly ContoFactory _contoFactory = new ContoFactory();
-        private int _nextClienteId = 1;
         private int _nextContoId = 1001;
         private int _nextOperazioneId = 10001;
 
         private BankContext()
         {
-            Clienti = new Dictionary<int, Cliente>();
             Conti = new Dictionary<int, Conto>();
             Operazioni = new Dictionary<int, List<Operazione>>();
+            Utenti = new Dictionary<int, Utente>(); 
         }
 
         public void Attach(IObserver observer)
@@ -53,31 +54,74 @@ namespace BankingApp
                 observer.Aggiorna(messaggio);
             }
         }
-
-        public Cliente CreaCliente(string nome, string cognome)
+        
+        public bool RegistraUtente(string nome, string password)
         {
-            var cliente = new Cliente
+            if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(password))
             {
-                IdCliente = _nextClienteId++,
-                Nome = nome,
-                Cognome = cognome
-            };
-            Clienti[cliente.IdCliente] = cliente;
+                Notify("[ERRORE] Nome utente e password non possono essere vuoti.");
+                return false;
+            }
 
-            Notify($"Nuovo cliente creato: {cliente.Nome} {cliente.Cognome} (ID: {cliente.IdCliente})");
-            return cliente;
+            bool utenteEsiste = false;
+            foreach (var u in Utenti.Values)
+            {
+                if (u.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase))
+                {
+                    utenteEsiste = true;
+                    break;
+                }
+            }
+            if (utenteEsiste)
+            {
+                Notify($"[ERRORE] Registrazione fallita: L'utente '{nome}' esiste già.");
+                return false;
+            }
+
+            var nuovoUtente = new Utente
+            {
+                IdUtente = _nextUtenteId++,
+                Nome = nome,
+                Password = password 
+            };
+            
+            Utenti[nuovoUtente.IdUtente] = nuovoUtente;
+            Notify($"Nuovo utente registrato con successo: {nome} (ID: {nuovoUtente.IdUtente})");
+            return true;
         }
 
-        public Conto ApriConto(int idCliente, string tipoConto, decimal saldoIniziale = 0)
+        public Utente? Login(string nome, string password)
         {
-            if (!Clienti.ContainsKey(idCliente))
+            Utente? utenteTrovato = null;
+            foreach (var utente in Utenti.Values)
             {
-                Notify($"[ERRORE] Cliente {idCliente} non trovato. Impossibile aprire conto.");
+                if (utente.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase))
+                {
+                    utenteTrovato = utente;
+                    break;
+                }
+            }
+
+            if (utenteTrovato != null && utenteTrovato.Password == password)
+            {
+                Notify($"Login riuscito. Benvenuto, {utenteTrovato.Nome}.");
+                return utenteTrovato;
+            }
+
+            Notify("[ERRORE] Login fallito: Nome utente o password errati.");
+            return null;
+        }
+
+        public Conto ApriConto(int idUtente, string tipoConto, decimal saldoIniziale = 0)
+        {
+            if (!Utenti.ContainsKey(idUtente))
+            {
+                Notify($"[ERRORE] Utente {idUtente} non trovato. Impossibile aprire conto.");
                 return null;
             }
 
             int nuovoIdConto = _nextContoId++;
-            Conto nuovoConto = _contoFactory.CreaConto(tipoConto, nuovoIdConto, idCliente);
+            Conto nuovoConto = _contoFactory.CreaConto(tipoConto, nuovoIdConto, idUtente);
 
             if (nuovoConto == null)
             {
@@ -94,7 +138,7 @@ namespace BankingApp
                 RegistraOperazione(nuovoConto.IdConto, "Deposito Iniziale", saldoIniziale);
             }
 
-            Notify($"Nuovo conto aperto (ID: {nuovoConto.IdConto}) per Cliente {idCliente}. Tipo: {tipoConto}, Saldo: {saldoIniziale:C}");
+            Notify($"Nuovo conto aperto (ID: {nuovoConto.IdConto}) per Utente {idUtente}. Tipo: {tipoConto}, Saldo: {saldoIniziale:C}");
             return nuovoConto;
         }
 
@@ -181,7 +225,7 @@ namespace BankingApp
                 Data = DateTime.Now
             };
 
-            if (sovrascriviUltima && Operazioni[idConto].Any())
+            if (sovrascriviUltima && Operazioni[idConto].Count > 0)
             {
                 Operazioni[idConto].RemoveAt(Operazioni[idConto].Count - 1);
             }
@@ -260,18 +304,18 @@ namespace BankingApp
     #region Factory
     public class ContoFactory
     {
-        public Conto CreaConto(string tipoConto, int idConto, int idCliente)
+        public Conto CreaConto(string tipoConto, int idConto, int idUtente)
         {
             switch (tipoConto.ToLower())
             {
                 case "base":
-                    return new ContoBase(idConto, idCliente, new InteresseBase());
+                    return new ContoBase(idConto, idUtente, new InteresseBase());
 
                 case "premium":
-                    return new ContoPremium(idConto, idCliente, new InteressePremium());
+                    return new ContoPremium(idConto, idUtente, new InteressePremium());
 
                 case "student":
-                    return new ContoStudent(idConto, idCliente, new CommissioneStudent());
+                    return new ContoStudent(idConto, idUtente, new CommissioneStudent());
 
                 default:
                     return null;
@@ -280,12 +324,13 @@ namespace BankingApp
     }
     #endregion
 
-    #region Clienti, Conti, Operazioni
-    public class Cliente
+    #region Conti, Operazioni, Utenti
+    
+    public class Utente
     {
-        public int IdCliente { get; set; }
+        public int IdUtente { get; set; }
         public string? Nome { get; set; }
-        public string? Cognome { get; set; }
+        public string? Password { get; set; }
     }
 
     public class Operazione
@@ -299,15 +344,15 @@ namespace BankingApp
     public abstract class Conto
     {
         public int IdConto { get; protected set; }
-        public int IdCliente { get; protected set; }
+        public int IdUtente { get; protected set; } 
         public decimal Saldo { get; protected set; }
 
         protected ICalcoloInteressi _strategiaCalcolo;
 
-        public Conto(int idConto, int idCliente, ICalcoloInteressi strategia)
+        public Conto(int idConto, int idUtente, ICalcoloInteressi strategia)
         {
             IdConto = idConto;
-            IdCliente = idCliente;
+            IdUtente = idUtente; 
             Saldo = 0;
             _strategiaCalcolo = strategia;
         }
@@ -349,23 +394,23 @@ namespace BankingApp
 
     public class ContoBase : Conto
     {
-        public ContoBase(int idConto, int idCliente, ICalcoloInteressi strategia)
-            : base(idConto, idCliente, strategia)
+        public ContoBase(int idConto, int idUtente, ICalcoloInteressi strategia)
+            : base(idConto, idUtente, strategia) 
         {
         }
     }
 
     public class ContoPremium : Conto
     {
-        public ContoPremium(int idConto, int idCliente, ICalcoloInteressi strategia)
-            : base(idConto, idCliente, strategia)
+        public ContoPremium(int idConto, int idUtente, ICalcoloInteressi strategia)
+            : base(idConto, idUtente, strategia) 
         {
         }
     }
     public class ContoStudent : Conto
     {
-        public ContoStudent(int idConto, int idCliente, ICalcoloInteressi strategia)
-            : base(idConto, idCliente, strategia)
+        public ContoStudent(int idConto, int idUtente, ICalcoloInteressi strategia)
+            : base(idConto, idUtente, strategia) 
         {
         }
     }
@@ -384,19 +429,77 @@ namespace BankingApp
             context.Attach(logger);
             context.Attach(dashboard);
 
-            bool inEsecuzione = true;
-            while (inEsecuzione)
+            Console.WriteLine("--- Benvenuto nel Sistema Bancario ---");
+            bool appInEsecuzione = true;
+
+            while (appInEsecuzione)
+            {
+                Console.WriteLine("\n--- AUTENTICAZIONE ---");
+                Console.WriteLine("1. Login");
+                Console.WriteLine("2. Registrati");
+                Console.WriteLine("3. Esci dall'applicazione");
+                Console.Write("Seleziona un'opzione: ");
+
+                string? sceltaAuth = Console.ReadLine();
+                Utente? utenteCorrente = null;
+
+                switch (sceltaAuth)
+                {
+                    case "1":
+                        utenteCorrente = GestisciLogin(context);
+                        break;
+                    case "2":
+                        GestisciRegistrazione(context);
+                        break;
+                    case "3":
+                        appInEsecuzione = false;
+                        break;
+                    default:
+                        Console.WriteLine("[ERRORE] Scelta non valida.");
+                        break;
+                }
+
+                if (utenteCorrente != null)
+                {
+                    MostraMenuOperazioni(context, utenteCorrente);
+                }
+            }
+
+            Console.WriteLine("\n--- Simulazione Terminata ---");
+        }
+
+        private static Utente? GestisciLogin(BankContext context)
+        {
+            Console.WriteLine("--- Login ---");
+            string nome = LeggiStringa("Nome Utente: ");
+            string password = LeggiStringa("Password: ");
+            return context.Login(nome, password);
+        }
+
+        private static void GestisciRegistrazione(BankContext context)
+        {
+            Console.WriteLine("--- Registrazione Nuovo Utente ---");
+            string nome = LeggiStringa("Scegli Nome Utente: ");
+            string password = LeggiStringa("Scegli Password: ");
+            context.RegistraUtente(nome, password);
+        }
+
+        private static void MostraMenuOperazioni(BankContext context, Utente utente)
+        {
+            Console.WriteLine($"\n--- BENVENUTO, {utente.Nome?.ToUpper()} ---");
+            bool utenteLoggato = true;
+
+            while (utenteLoggato)
             {
                 Console.WriteLine("\n--- MENU PRINCIPALE ---");
-                Console.WriteLine("1. Crea Cliente");
-                Console.WriteLine("2. Apri Conto");
-                Console.WriteLine("3. Esegui Deposito");
-                Console.WriteLine("4. Esegui Prelievo");
-                Console.WriteLine("5. Esegui Trasferimento");
-                Console.WriteLine("6. Applica Interessi/Commissioni (a tutti i conti)");
-                Console.WriteLine("7. Mostra Dettagli Cliente");
-                Console.WriteLine("8. Mostra Dettagli Conto (con operazioni)");
-                Console.WriteLine("9. Esci");
+                Console.WriteLine("1. Apri Conto");
+                Console.WriteLine("2. Esegui Deposito");
+                Console.WriteLine("3. Esegui Prelievo");
+                Console.WriteLine("4. Esegui Trasferimento");
+                Console.WriteLine("5. Applica Interessi/Commissioni (a tutti i conti)");
+                Console.WriteLine("6. Mostra Dettagli Utente (e Conti)");
+                Console.WriteLine("7. Mostra Dettagli Conto (con operazioni)");
+                Console.WriteLine("8. Logout");
                 Console.Write("Seleziona un'opzione: ");
 
                 string? scelta = Console.ReadLine();
@@ -404,59 +507,46 @@ namespace BankingApp
 
                 switch (scelta)
                 {
-                    case "1":
-                        GestisciCreaCliente(context);
-                        break;
-                    case "2":
+                    case "1": 
                         GestisciApriConto(context);
                         break;
-                    case "3":
+                    case "2": 
                         GestisciDeposito(context);
                         break;
-                    case "4":
+                    case "3": 
                         GestisciPrelievo(context);
                         break;
-                    case "5":
+                    case "4": 
                         GestisciTrasferimento(context);
                         break;
-                    case "6":
+                    case "5": 
                         GestisciApplicaInteressi(context);
                         break;
-                    case "7":
-                        GestisciDettagliCliente(context);
+                    case "6": 
+                        GestisciDettagliUtente(context); 
                         break;
-                    case "8":
+                    case "7": 
                         GestisciDettagliConto(context);
                         break;
-                    case "9":
-                        inEsecuzione = false;
+                    case "8": 
+                        utenteLoggato = false; 
+                        context.Notify($"Logout eseguito dall'utente: {utente.Nome}");
                         break;
                     default:
                         Console.WriteLine("[ERRORE] Scelta non valida. Riprova.");
                         break;
                 }
             }
-
-            Console.WriteLine("\n--- Simulazione Terminata ---");
-        }
-
-        private static void GestisciCreaCliente(BankContext context)
-        {
-            Console.WriteLine("--- Creazione Nuovo Cliente ---");
-            string nome = LeggiStringa("Nome: ");
-            string cognome = LeggiStringa("Cognome: ");
-
-            context.CreaCliente(nome, cognome);
         }
 
         private static void GestisciApriConto(BankContext context)
         {
             Console.WriteLine("--- Apertura Nuovo Conto ---");
-            int idCliente = LeggiInt("ID Cliente: ");
+            int idUtente = LeggiInt("ID Utente proprietario: ");
             string tipoConto = LeggiStringa("Tipo Conto (base, premium, student): ").ToLower();
             decimal saldoIniziale = LeggiDecimal("Saldo Iniziale: ");
 
-            context.ApriConto(idCliente, tipoConto, saldoIniziale);
+            context.ApriConto(idUtente, tipoConto, saldoIniziale);
         }
 
         private static void GestisciDeposito(BankContext context)
@@ -490,7 +580,7 @@ namespace BankingApp
         private static void GestisciApplicaInteressi(BankContext context)
         {
             Console.WriteLine("--- Applicazione Interessi/Commissioni (Strategy) ---");
-            if (!context.Conti.Any())
+            if (context.Conti.Count == 0)
             {
                 Console.WriteLine("Nessun conto presente nel sistema.");
                 return;
@@ -502,20 +592,28 @@ namespace BankingApp
             }
         }
 
-        private static void GestisciDettagliCliente(BankContext context)
+        private static void GestisciDettagliUtente(BankContext context)
         {
-            Console.WriteLine("--- Dettagli Cliente ---");
-            int idCliente = LeggiInt("ID Cliente: ");
+            Console.WriteLine("--- Dettagli Utente ---");
+            int idUtente = LeggiInt("ID Utente: ");
 
-            if (context.Clienti.TryGetValue(idCliente, out Cliente? cliente))
+            if (context.Utenti.TryGetValue(idUtente, out Utente? utente))
             {
-                Console.WriteLine($"Cliente: {cliente.Nome} {cliente.Cognome} (ID: {cliente.IdCliente})");
+                Console.WriteLine($"Utente: {utente.Nome} (ID: {utente.IdUtente})");
                 Console.WriteLine("Conti associati:");
-
-                var contiCliente = context.Conti.Values.Where(c => c.IdCliente == idCliente).ToList();
-                if (contiCliente.Any())
+                
+                var contiUtente = new List<Conto>();
+                foreach (var c in context.Conti.Values)
                 {
-                    foreach (var conto in contiCliente)
+                    if (c.IdUtente == idUtente)
+                    {
+                        contiUtente.Add(c);
+                    }
+                }
+
+                if (contiUtente.Count > 0)
+                {
+                    foreach (var conto in contiUtente)
                     {
                         Console.WriteLine($"  - Conto ID: {conto.IdConto}, Saldo: {conto.Saldo:C}");
                     }
@@ -527,7 +625,7 @@ namespace BankingApp
             }
             else
             {
-                Console.WriteLine("[ERRORE] Cliente non trovato.");
+                Console.WriteLine("[ERRORE] Utente non trovato.");
             }
         }
 
@@ -539,11 +637,11 @@ namespace BankingApp
             if (context.Conti.TryGetValue(idConto, out Conto? conto))
             {
                 Console.WriteLine($"Conto ID: {idConto}");
-                Console.WriteLine($"Cliente ID: {conto.IdCliente}");
+                Console.WriteLine($"Utente ID: {conto.IdUtente}"); 
                 Console.WriteLine($"Saldo Attuale: {conto.Saldo:C}");
                 Console.WriteLine("--- Storico Operazioni ---");
 
-                if (context.Operazioni.TryGetValue(idConto, out List<Operazione>? operazioni) && operazioni.Any())
+                if (context.Operazioni.TryGetValue(idConto, out List<Operazione>? operazioni) && operazioni.Count > 0)
                 {
                     foreach (var op in operazioni)
                     {
