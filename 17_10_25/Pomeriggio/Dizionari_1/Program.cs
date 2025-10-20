@@ -2,6 +2,8 @@
 {
     public static void Main(string[] args)
     {
+
+        //RUBRICA
         Dictionary<string, string> rubrica = new Dictionary<string, string>();
         string nome, numero;
         for (int i = 0; i < 3; i++)
@@ -29,6 +31,7 @@
         foreach (var kvp in rubrica)
             Console.WriteLine($"{kvp.Key} - {kvp.Value}");
 
+        //Conteggio parole
         Console.WriteLine("Inserisci una frase: ");
         string frase = Console.ReadLine();
         string[] parole = frase.Split(' ');
@@ -47,7 +50,7 @@
         foreach (var kvp in conteggioParole)
             Console.WriteLine($"{kvp.Key} - {kvp.Value}");
 
-
+        //gestione prodotti
         Dictionary<string, int> prodotti = new Dictionary<string, int>();
         string nome1;
         while (true)
