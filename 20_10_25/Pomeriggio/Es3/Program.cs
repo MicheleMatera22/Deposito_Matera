@@ -15,7 +15,7 @@ public sealed class AppConfig
 
     private AppConfig()
     {
-        NomeApp = "EasyBank";
+        NomeApp = "OrderManager";
         Valuta = "€";
         IVA = 0.22;
     }
@@ -32,9 +32,31 @@ public class LoggerService : ILogger
         _config = config;
     }
 
-    public void Log(string message)
+    public virtual void Log(string message)
     {
         Console.WriteLine($"[{_config.NomeApp}] {message}");
+    }
+}
+
+public abstract class LoggerDecorator : ILogger
+{
+    protected ILogger _innerLogger;
+
+    protected LoggerDecorator(ILogger logger)
+    {
+        _innerLogger = logger;
+    }
+
+    public abstract void Log(string message);
+}
+public class TimestampLoggerDecorator : LoggerDecorator
+{
+    public TimestampLoggerDecorator(ILogger logger) : base(logger) { }
+
+    public override void Log(string message)
+    {
+        string timestampedMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
+        _innerLogger.Log(timestampedMessage);
     }
 }
 
@@ -62,7 +84,21 @@ public class Program
     public static void Main()
     {
         var config = AppConfig.Instance;
-        var logger = new LoggerService(config);
+
+        Console.WriteLine("Scegli modalità logger:");
+        Console.WriteLine("1. Normale");
+        Console.WriteLine("2. Con timestamp");
+        Console.Write("Scelta: ");
+        string? sceltaLogger = Console.ReadLine();
+
+        ILogger logger = new LoggerService(config);
+
+        if (sceltaLogger == "2")
+        {
+            // Applichiamo il pattern decorator
+            logger = new TimestampLoggerDecorator(logger);
+        }
+
         var orderService = new OrderService(logger);
 
         while (true)
@@ -81,7 +117,7 @@ public class Program
                 Console.Write("Inserisci prezzo prodotto: ");
                 if (double.TryParse(Console.ReadLine(), out double prezzo))
                 {
-                    orderService.CreaOrdine(prodotto ?? "Sconosciuto", prezzo);
+                    orderService.CreaOrdine(prodotto, prezzo);
                 }
                 else
                 {
