@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnteFormativo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe283561593f8cf1e158aa34db8a1e9701d48285")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc47ebbf7f6b6d5dfa1e2bc75f9176c3d363d0a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnteFormativo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnteFormativo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
